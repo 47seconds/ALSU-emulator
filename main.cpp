@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-    // Testing out Logical Unit
+    // Testing our Logical Unit
     LU *lu = new LU;
     lu->setup_args(1, 0);
     cout << "A: " << 1 << ", B: " << 0 << endl;
