@@ -1,6 +1,6 @@
 #include <iostream>
 #include "header/BaseClass.h"
-#include "header/LU.h"
+#include "header/LogicUnit.h"
 using namespace std;
 
 // NOTE: FOR cout PURPOSES, TYPECAST TO int
