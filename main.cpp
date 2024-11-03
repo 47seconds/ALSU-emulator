@@ -8,7 +8,7 @@ using namespace std;
 int main() {
 
     // Testing our Logical Unit
-    LU *logical_unit = new LU();
+    LogicUnit *logical_unit = new LogicUnit();
     logical_unit->setup_args(1, 0);
     cout << "A: " << 1 << ", B: " << 0 << endl;
     cout << "AND: " << static_cast<int>(logical_unit->calc(0, 0)) << endl;
